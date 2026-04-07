@@ -9,7 +9,7 @@ El proyecto consiste en un bucle de monitorización que se ejecuta a intervalos 
 ## Características principales
 
 * **Sondeo automatizado:** Utiliza un intervalo estándar para comprobar el estado del dispositivo sin intervención manual.
-* **Filtrado de estado:** Se dirige específicamente a dispositivos donde Estado_conexionno está activo.
+* **Filtrado de estado:** Se dirige específicamente a dispositivos donde Estado_conexion no está activo.
 * **Alertas push:** Envía alertas inmediatas que contienen los identificadores de todos los iPads sin conexión.
 * **Registro de errores resiliente:** si el proceso de monitoreo falla (por ejemplo, la API no está disponible), el sistema captura la excepción y envía un registro detallado por correo electrónico.
 * **Integración con Windows:** Incluye scripts para instalarse como un demonio en segundo plano que se inicia automáticamente con el sistema operativo.
