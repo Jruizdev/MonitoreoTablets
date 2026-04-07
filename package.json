@@ -1,0 +1,16 @@
+{
+  "name": "monitoreotablets",
+  "version": "1.0.0",
+  "description": "Monitoreo para la notificación de tablets apagadas, utilizando aplicación en móvil.",
+  "license": "ISC",
+  "author": "Jonathan Ruiz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-windows": "^1.0.0-beta.8"
+  }
+}
